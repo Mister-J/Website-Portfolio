@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	
+}
+
+.header-inner {
+	background-image: url("banner.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#brand {
+	float: left;
+	margin: 50px 0 50px 50px;
+	width: 500px;
+	font-size: 130%;
+	text-decoration: none;
+	font-family: Arial;
+	color: white;
+}
+
+nav ul {
+	float: right;
+	list-style-type: none;
+	overflow: hidden;
+	margin-right: 20px;
+}
+
+nav ul li {
+	margin: 50px 0 50px 50px;
+	display: inline-block;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-family: Arial;
+	color: white;
+}
+
+.center-text {
+	clear: both;
+	text-align: center;
+	font-family: Arial;
+	padding: 100px 0;
+	border-width: 3px;
+	line-height: 50px;
+	color: white;
+}
+
+button a {
+	color: white;
+	text-decoration: none;
+}
+
+.center-text button {
+	margin: 10px 0 0 0;
+	background-color: transparent;
+	border-radius: 10px 10px 10px 10px;
+	padding: 10px 30px;
+	font-size: 24px;
+	transition-duration: 0.4s;
+}
+
+.center-text button:hover {
+	background-color: #abafb5;
+}
+
+h1, h2, button {
+	font-weight: 400;
+}
+
+.middle-section {
+	background-color: #27ae60;
+	border-color: red;
+	border-style: solid;
+}
+
+.middle-section h2, h3 {
+	text-align: center;
+	line-height: 40px;
+	font-weight: 400;
+	font-family: Arial;
+	color: white;
+}
+
+.middle-section h2 {
+	padding-top: 75px;
+	
+}
+
+.mini-sections {
+	margin: 0 10% 10%;
+	overflow: auto;
+	border-color: orange;
+	border-style: solid;
+}
+
+.individual-section {
+	float: left;
+	width: 10%;
+	padding-right: 20%;
+	border-color: yellow;
+
+}
