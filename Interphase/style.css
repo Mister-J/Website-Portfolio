@@ -10,9 +10,11 @@ header {
 .header-inner {
 	background-image: url("banner.jpg");
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	width: 100%;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
 	margin: 0 auto;
+	width: 100%;
 }
 
 #brand {
@@ -77,6 +79,7 @@ h1, h2, button {
 
 .middle-section {
 	background-color: #27ae60;
+	padding-bottom: 50px;
 }
 
 .middle-section h2, h3 {
@@ -120,4 +123,87 @@ h1, h2, button {
 
 .fa-user {
 	color: white;
+}
+
+.picture-section h1, .picture-section p {
+	text-align: center;
+	line-height: 50px;
+	color: gray;
+	padding: 0;
+	margin: 0;
+}
+
+.picture-wrapper-blocks hr {
+	border-style: double;
+	color: gray;
+	margin: 50px 1%;
+}
+
+.picture-blocks {
+	float: left;
+	overflow: hidden;
+	width: 30%;
+	margin: auto 10%;
+}
+
+.picture-blocks hr {
+	width: 100%;
+	margin: 0;
+	color: gray;
+	border-style: double;
+	border-color: gray;
+}
+
+.picture-blocks img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.picture-blocks h2, .picture-blocks p {
+	color: gray;
+	text-align: center;
+	margin: 20px auto;
+	padding-bottom: 30px;
+}
+
+.picture-section-button {
+	background-color: transparent;
+	border-radius: 10px 10px 10px 10px;
+	padding: 10px 30px;
+	font-size: 24px;
+	transition-duration: 0.4s;
+	position: relative;
+	top: 45%;
+	left: 45%;
+}
+
+.picture-section-button > a {
+	color: gray;
+}
+
+.picture-section-button:hover {
+	background-color: #abafb5;
+}
+
+@media only screen and (max-width: 1300px) {
+	.picture-section h1, .picture-section p {
+		line-height: 50px;
+}
+
+.picture-wrapper-blocks hr {
+	border-style: double;
+	color: gray;
+	margin: 50px 1%;
+}
+
+.picture-blocks {
+	width: 48%;
+	margin: auto 1%;
+}
+
+.picture-blocks h2, .picture-blocks p {
+	margin: 20px auto;
+	padding-bottom: 30px;
+}
+
 }
