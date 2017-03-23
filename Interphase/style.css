@@ -125,25 +125,32 @@ h1, h2, button {
 	color: white;
 }
 
+
 .picture-section h1, .picture-section p {
 	text-align: center;
 	line-height: 50px;
 	color: gray;
 	padding: 0;
-	margin: 0;
+	margin-top: 25px;
 }
 
 .picture-wrapper-blocks hr {
 	border-style: double;
 	color: gray;
-	margin: 50px 1%;
+	margin: 50px 12%;
 }
 
 .picture-blocks {
 	float: left;
 	overflow: hidden;
-	width: 30%;
-	margin: auto 10%;
+	width: 37%;
+}
+
+#left-picture {
+	margin-left: 12%;
+}
+#right-picture {
+	margin-left: 2%;
 }
 
 .picture-blocks hr {
@@ -173,8 +180,9 @@ h1, h2, button {
 	font-size: 24px;
 	transition-duration: 0.4s;
 	position: relative;
-	top: 45%;
-	left: 45%;
+	top: 37%;
+	left: 37%;
+	clear: both;
 }
 
 .picture-section-button > a {
@@ -185,7 +193,7 @@ h1, h2, button {
 	background-color: #abafb5;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 300px) {
 	.picture-section h1, .picture-section p {
 		line-height: 50px;
 }
