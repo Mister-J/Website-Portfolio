@@ -125,7 +125,6 @@ h1, h2, button {
 	color: white;
 }
 
-
 .picture-section h1, .picture-section p {
 	text-align: center;
 	line-height: 50px;
@@ -173,16 +172,15 @@ h1, h2, button {
 	padding-bottom: 30px;
 }
 
+.button-location {
+	clear: both;
+	text-align: center;
+}
 .picture-section-button {
 	background-color: transparent;
-	border-radius: 10px 10px 10px 10px;
 	padding: 10px 30px;
 	font-size: 24px;
 	transition-duration: 0.4s;
-	position: relative;
-	top: 37%;
-	left: 37%;
-	clear: both;
 }
 
 .picture-section-button > a {
@@ -190,28 +188,55 @@ h1, h2, button {
 }
 
 .picture-section-button:hover {
-	background-color: #abafb5;
+	background-color: #dadee5;
 }
 
-@media only screen and (max-width: 300px) {
-	.picture-section h1, .picture-section p {
-		line-height: 50px;
+footer {
+	background-color: #585a5e;
 }
 
-.picture-wrapper-blocks hr {
-	border-style: double;
-	color: gray;
-	margin: 50px 1%;
+.footer-wrapper {
+	overflow: hidden;
+	padding-top: 10%;
 }
 
-.picture-blocks {
-	width: 48%;
-	margin: auto 1%;
+#left-indiv-section {
+	margin-left: 10%;
 }
 
-.picture-blocks h2, .picture-blocks p {
-	margin: 20px auto;
-	padding-bottom: 30px;
+#after-first-left {
+	margin-left: 3%;
+}
+.indiv-footer-sections {
+	float: left;
+	width: 24%;
 }
 
+.indiv-footer-sections p, .indiv-footer-sections h2, .indiv-footer-sections a, .indiv-footer-sections hr {
+	color: white;
+	font-family: Arial;
+	margin: 20px 0;
+}
+
+.fa-stack {
+	color: white;
+}
+
+.text-wrapper {
+	border-style: solid;
+	border-color: yellow;
+	overflow: hidden;
+}
+
+.header-sections {
+	border-style: solid;
+	border-color: red;
+	float: left;
+}
+
+.p-sections {
+	border-style: solid;
+	border-color: blue;
+	width: 200px;
+	float: left;
 }
