@@ -1,3 +1,5 @@
+/* Remember, body has background color of #e8b888. This effects extra margins and padding --> */
+
 * {
 	margin: 0;
 	padding: 0;
@@ -7,8 +9,12 @@ header {
 	
 }
 
+body {
+	background-color: #e8b888
+}
+
 .header-inner {
-	background-image: url("banner.jpg");
+	background-image: url("sfgiants.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
@@ -78,7 +84,7 @@ h1, h2, button {
 }
 
 .middle-section {
-	background-color: #27ae60;
+	background-color: #9b5c1d;
 	padding-bottom: 50px;
 }
 
@@ -123,6 +129,11 @@ h1, h2, button {
 
 .fa-user {
 	color: white;
+}
+
+.picture-section {
+	margin-bottom: 100px;
+	background-color: #e8b888;
 }
 
 .picture-section h1, .picture-section p {
@@ -223,20 +234,18 @@ footer {
 }
 
 .text-wrapper {
-	border-style: solid;
-	border-color: yellow;
 	overflow: hidden;
 }
 
 .header-sections {
-	border-style: solid;
-	border-color: red;
-	float: left;
+	display: inline-block;
+	width: 40%;
 }
 
 .p-sections {
-	border-style: solid;
-	border-color: blue;
-	width: 200px;
-	float: left;
+	display: inline-block;
+	width: 150px;
+	vertical-align: middle;
+	color: white;
+	line-height: 1.5;
 }
