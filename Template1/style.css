@@ -10,7 +10,7 @@ header {
 }
 
 body {
-	background-color: #e8b888
+	
 }
 
 .header-inner {
@@ -76,7 +76,7 @@ button a {
 }
 
 .center-text button:hover {
-	background-color: #abafb5;
+	background-color: #9b5c1d;
 }
 
 h1, h2, button {
@@ -133,13 +133,13 @@ h1, h2, button {
 
 .picture-section {
 	margin-bottom: 100px;
-	background-color: #e8b888;
+	background-color: white;
 }
 
 .picture-section h1, .picture-section p {
 	text-align: center;
 	line-height: 50px;
-	color: gray;
+	color: black;
 	padding: 0;
 	margin-top: 25px;
 }
@@ -177,7 +177,7 @@ h1, h2, button {
 }
 
 .picture-blocks h2, .picture-blocks p {
-	color: gray;
+	color: black;
 	text-align: center;
 	margin: 20px auto;
 	padding-bottom: 30px;
