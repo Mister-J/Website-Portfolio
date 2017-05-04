@@ -6,6 +6,7 @@
 body {
 	background-color: #726d6d;
 }
+
 .navbar {
 	background-color: purple;
 	overflow: hidden;
@@ -172,7 +173,81 @@ hr {
 }
 
 .contact-form h1 {
+	margin-top: 10%;
 	text-align: center;
 	color: gray;
 }
 
+.form-style {
+	width: 40%;
+    margin: 5%;
+    float: left;
+}
+
+.form-style input[type="text"] {
+	outline: none;
+	display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-bottom: 10px;
+    height: 45px;
+}
+
+#message {
+	height: 225px;
+}
+
+form > div {
+  position: relative;
+  padding: 10px;
+}
+form > div > label {
+  position: absolute;
+  top: 15px;
+  color: gray;
+  transition: 0.5s;
+  font-size: 20px;
+}
+
+input:focus + label, input:valid + label {
+	top:-5px;
+	font-size:14px;
+	color: purple;
+}
+
+.next-to-form {
+	float: left;
+	font-size: 20px;
+	color: gray;
+	font-family: 'Patua One', cursive;
+	width: 35%;
+	margin: 5%;
+	line-height: 1.5;
+}
+
+button {
+	font-size: 20px;
+	padding: 5px;
+}
+
+.pre-footer {
+	margin: 0;
+	padding: 0;
+	background-color: silver;
+	overflow: hidden;
+}
+
+.pre-footer-container {
+	margin: 0 10%;
+	float: left;
+	width: 30%;
+	text-align: center;
+}
+
+.pre-footer-container p {
+	color: white;
+	padding: 15px;
+	font-size: 24px;
+}
