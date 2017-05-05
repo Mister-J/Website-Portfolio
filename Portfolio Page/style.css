@@ -250,4 +250,20 @@ button {
 	color: white;
 	padding: 15px;
 	font-size: 24px;
+	font-family: 'Patua One', cursive;
+	display: inline-block;
+}
+
+.icon-background-outer {
+	color: white;
+	border-radius: 50%;
+	border-color: black;
+}
+
+.icon-background {
+	color: transparent;
+}
+
+.pre-footer-container i:hover {
+	color: purple;
 }
