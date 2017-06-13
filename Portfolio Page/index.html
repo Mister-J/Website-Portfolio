@@ -1,5 +1,18 @@
-<!DOCTYPE  html>
-<html>
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="style.css">
@@ -7,21 +20,25 @@
 <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  
+  <script src="https://use.fontawesome.com/db81b3a33a.js"></script>
+  
 </head>
 
 <body>
-	<div class="navbar">
+	<div id="navbar" class="navbar">
 		<div class="brand">
 			<a href="#">Joey Graziano</a>
 		</div>
 		<ul>
-			<li><a href="#">CONTACT</a></li>
-			<li><a href="#">PORTFOLIO</a></li>
-			<li><a href="#">ABOUT</a></li>
+			<li><a class="three" href="#">CONTACT</a></li>
+			<li><a class="two" href="#">PORTFOLIO</a></li>
+			<li><a class="active one" href="#">ABOUT</a></li>
 		</ul>
+  <a href="javascript:void(0);" style="font-size:15px;" class="navicon" onclick="myFunction()">&#9776</a>;
 	</div>
 
-	<div class="about-page">
+	<div id="About" class="about-page">
 		<div class="left-about">
 			<p>Just graduated with a degree in Management Information Systems and a minor in comptuer science.
 				I have experience in front end development and still currently working on my portfolio.
@@ -34,7 +51,7 @@
 		</div>
 	</div>
 
-	<div class="portfolio-page">
+	<div id="Portfolio" class="portfolio-page">
 		<h1>PORTFOLIO</h1>
 		<div class="break-line">
     		<div class="left-break">
@@ -53,7 +70,7 @@
 
 		<div class="portfolio-container">
 			<div class="portfolio-pictures">
-				<img src="TemplateImage1.png">
+				<img src="http://i.imgur.com/kBbAy04.png">
 			</div>
 			<div class="portfolio-pictures">
 				<p>More Coming Soon</p>
@@ -62,7 +79,7 @@
 		<hr>
 	</div>
 
-	<div class="contact-form">
+	<div id="Contact" class="contact-form">
 		<h1>CONTACT ME</h1>
 		<div class="break-line">
     		<div class="left-break">
@@ -99,40 +116,40 @@
   			</div>
   			<button type="submit">Send</button>
 		</form>
-		<p class="next-to-form">Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.
-		I promise to reply A.S.A.P.</p>
+		<p class="next-to-form">If you would like to get in contact with me, please fill out this form. I check my emails on a daily
+		basis and will respond quickly to your requests. I would love to get in to contact with you for future projects.</p>
 	</div>
 
 	<div class="pre-footer">
 		<div class="pre-footer-container">
 			<p>ABOUT THIS PAGE</p>
-			<p>Made with <i class="fa fa-coffee" aria-hidden="true"></i>
-			and <i class="fa fa-music" aria-hidden="true"></i> by 
+			<p>Made with some <i class="fa fa-coffee" aria-hidden="true"></i>
+			and of course a little <i class="fa fa-music" aria-hidden="true"></i> by 
 			Joey Graziano</p>
 		</div>
 
 		<div class="pre-footer-container">
 			<p>AROUND THE WEB</p>
 			<br>
-			<a href="http://www.linkedin.com"><span class="fa-stack fa-lg">
+			<a href="https://www.linkedin.com"><span class="fa-stack fa-lg">
   			<i class="fa fa-circle fa-stack-2x icon-background"></i>
   			<i class="fa fa-circle-thin fa-stack-2x icon-background-outer"></i>
   			<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
 			</span></a>
 
-			<a href="http://www.twitter.com"><span class="fa-stack fa-lg">
+			<a href="https://www.twitter.com"><span class="fa-stack fa-lg">
   			<i class="fa fa-circle fa-stack-2x icon-background"></i>
   			<i class="fa fa-circle-thin fa-stack-2x icon-background-outer"></i>
   			<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
 			</span></a>
 
-			<a href="http://www.facebook.com"><span class="fa-stack fa-lg">
+			<a href="https://www.facebook.com"><span class="fa-stack fa-lg">
   			<i class="fa fa-circle fa-stack-2x icon-background"></i>
   			<i class="fa fa-circle-thin fa-stack-2x icon-background-outer"></i>
   			<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
 			</span></a>
 
-			<a href="http://www.github.com"><span class="fa-stack fa-lg">
+			<a href="https://www.github.com"><span class="fa-stack fa-lg">
   			<i class="fa fa-circle fa-stack-2x icon-background"></i>
   			<i class="fa fa-circle-thin fa-stack-2x icon-background-outer"></i>
   			<i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -140,6 +157,11 @@
 		</div>
 	</div>
 
+	<footer>
+		<div class="footer-text">
+			<p>Joey Graziano &copy; 2017. All Rights Reserved</p>
+		</div>
+	</footer>
 
 
 
@@ -147,9 +169,11 @@
 
 
 
+</body>
+</html>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
 
-
-
+    <script src="js/index.js"></script>
 
 </body>
 </html>
